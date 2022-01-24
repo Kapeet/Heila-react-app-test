@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+
+li {
+  white-space: nowrap;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.Roles {
+  position: absolute;
+  border: 2px solid white;
+  left: 60%;
+  padding: 0;
+  margin: 0;
+}
+
+.Roles li {
+  display: block;
+  padding: .5rem;
+  text-align: start;
+}
+.Roles p {
+  /* padding: 0; */
+  margin: 0;
+}
+
+.Dialog {
+  background-color: #212121;
+  display: block;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  z-index: 10;
+  border-radius: 25px;
+}
+
+.Dialog button {
+  outline: none;
+  border: 2px solid white;
+  border-radius: 15px;
+  background: none;
+  color: white;
+  font-size: 5rem;
+  margin: 1rem;
+  width: 40%;
+  cursor: pointer;
+}
+
+.employee {
+  background-color: #212121;
+  border-radius: 15px;
+  margin: .5rem;
+  padding: .5rem;
+  width: 100%;
+}
+
+.employee p {
+  padding: .25rem;
+}
+
+.employee h1 {
+  margin: auto;
+}
